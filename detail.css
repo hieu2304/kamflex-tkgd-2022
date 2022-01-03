@@ -629,7 +629,7 @@ img {
 .p-informations__total__box {
   border: 1px solid #ddd;
   padding: 20px;
-  border-radius: 20px;
+  border-radius: 2px;
 }
 
 .p-informations__total__scores {
@@ -676,6 +676,10 @@ img {
 
 .p-actors__item {
   width: 150px;
+}
+
+.p-actors__item__name {
+  min-height: 35px;
 }
 
 @media only screen and (max-width: 812px) {

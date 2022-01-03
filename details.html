@@ -42,7 +42,7 @@
           <div class="row u-flex-start">
             <div class="col-2 col-sm-6">
               <div class="img-ratio2x3 p-informations__poster">
-                <img src="./assets/images/film-image.png" alt="movie image" />
+                <img src="" alt="movie image" id="movie-poster" />
               </div>
             </div>
             <div class="col-10 col-sm-12">
@@ -51,43 +51,42 @@
                   <div class="p-informations__item">
                     <div class="u-flex">
                       <span class="c-label"> Tên phim: </span>
-                      <p class="c-paragraphy u-flex-1">
-                        The matrix resurrection
-                      </p>
+                      <p class="c-paragraphy u-flex-1" id="movie-title"></p>
                     </div>
                   </div>
 
                   <div class="p-informations__item">
                     <div class="u-flex">
                       <span class="c-label"> Thời lượng: </span>
-                      <p class="c-paragraphy u-flex-1">120 phút</p>
+                      <p class="c-paragraphy u-flex-1" id="movie-runtime"></p>
                     </div>
                   </div>
                   <div class="p-informations__item">
                     <div class="u-flex">
                       <span class="c-label"> Thể loại: </span>
-                      <p class="c-paragraphy u-flex-1">
-                        Hành động, Viễn tưởng, Phiêu Lưu, Khoa Học
-                      </p>
+                      <p class="c-paragraphy u-flex-1" id="movie-genres"></p>
                     </div>
                   </div>
                   <div class="p-informations__item">
                     <div class="u-flex">
                       <span class="c-label"> Trạng thái: </span>
-                      <p class="c-paragraphy u-flex-1">Đã phát hành</p>
+                      <p class="c-paragraphy u-flex-1" id="movie-status"></p>
                     </div>
                   </div>
                   <div class="p-informations__item">
                     <div class="u-flex">
                       <span class="c-label"> Năm sản xuất: </span>
-                      <p class="c-paragraphy u-flex-1">2021</p>
+                      <p
+                        class="c-paragraphy u-flex-1"
+                        id="movie-releasedAt"
+                      ></p>
                     </div>
                   </div>
 
                   <div class="p-informations__item">
                     <div class="u-flex">
                       <span class="c-label"> Ngôn ngữ: </span>
-                      <p class="c-paragraphy u-flex-1">Tiếng Anh</p>
+                      <p class="c-paragraphy u-flex-1" id="movie-languages"></p>
                     </div>
                   </div>
                 </div>
@@ -104,12 +103,13 @@
                         "
                       >
                         <img src="./assets/icons/full-star.png" alt="" />
-                        <p>8.5</p>
+                        <p id="movie-total-score"></p>
                       </div>
-                      <span class="p-informations__total__reviews"
-                        >1500 <br />
-                        lượt đánh giá</span
+                      <span
+                        class="p-informations__total__reviews"
+                        id="movie-total-review"
                       >
+                      </span>
                     </div>
                   </div>
                 </div>
@@ -126,84 +126,31 @@
             <div class="col-5 col-sm-12 p-mod__scores">
               <div class="u-flex u-a-center p-mod__scores__item">
                 <span class="c-label"> Diễn xuất: </span>
-                <img
-                  src="./assets/images/scores/1.png"
-                  alt=""
-                  style="height: 25px"
-                />
+                <img src="" alt="" style="height: 25px" id="mod-acting" />
               </div>
               <div class="u-flex u-a-center p-mod__scores__item">
                 <span class="c-label"> Nội dung: </span>
-                <img
-                  src="./assets/images/scores/5.png"
-                  alt=""
-                  style="height: 25px"
-                />
+                <img src="" alt="" style="height: 25px" id="mod-content" />
               </div>
               <div class="u-flex u-a-center p-mod__scores__item">
                 <span class="c-label"> Hình ảnh: </span>
-                <img
-                  src="./assets/images/scores/3.png"
-                  alt=""
-                  style="height: 25px"
-                />
+                <img src="" alt="" style="height: 25px" id="mod-frame" />
               </div>
               <div class="u-flex u-a-center p-mod__scores__item">
                 <span class="c-label"> Âm thanh: </span>
-                <img
-                  src="./assets/images/scores/4.png"
-                  alt=""
-                  style="height: 25px"
-                />
+                <img src="" alt="" style="height: 25px" id="mod-sound" />
               </div>
               <div class="u-flex u-a-center p-mod__scores__item">
                 <span class="c-label"> Kỹ xảo: </span>
-                <img
-                  src="./assets/images/scores/2.png"
-                  alt=""
-                  style="height: 25px"
-                />
+                <img src="" alt="" style="height: 25px" id="mod-effects" />
               </div>
               <div class="u-flex u-a-center p-mod__scores__item">
                 <span class="c-label"> Tổng kết: </span>
-                <img
-                  src="./assets/images/scores/3.png"
-                  alt=""
-                  style="height: 25px"
-                />
-              </div>
-              <div class="u-flex u-a-center p-mod__scores__item">
-                <span class="c-label"> Tên phim: </span>
-                <img
-                  src="./assets/images/scores/1.png"
-                  alt=""
-                  style="height: 25px"
-                />
+                <img src="" alt="" style="height: 25px" id="mod-total" />
               </div>
             </div>
             <div class="col-7 col-sm-12">
-              <p class="c-paragraphy c-line-height-2">
-                ”Trong một thế giới của hai thực tại-cuộc sống hàng ngày và
-                những gì ẩn chứa đằng sau nó-Thomas Anderson sẽ phải lựa chọn đi
-                theo con thỏ trắng một lần nữa. Sự lựa chọn, trong khi chỉ là ảo
-                ảnh, vẫn là cách duy nhất để vào hoặc ra khỏi Ma trận, mạnh hơn,
-                an toàn hơn, và nguy hiểm hơn bao giờ hết.” <br /><br />
-                The Matrix Resurrections sẽ chứng kiến ​​Keanu Reeves và
-                Carrie-Anne Moss trở lại trong vai Neo và Trinity-Neo đang sống
-                một cuộc sống dường như bình thường ở San Francisco với vai
-                Thomas Anderson. Anh ta đang được bác sĩ trị liệu kê cho những
-                viên thuốc màu xanh lam và dường như không nhận ra Trinity khi
-                họ va vào nhau. Jada Pinkett-Smith cũng sẽ trở lại với vai
-                Niobe, trong khi Lambert Wilson sẽ đóng lại vai The Merovingian
-                và Daniel Bernhardt trở lại với vai Đặc vụ Johnson. Lana
-                Wachowski, người đồng đạo diễn bộ ba Ma trận gốc với chị gái
-                Lilly, trở lại với tư cách đạo diễn, cũng như đồng sáng tác và
-                đồng sản xuất bộ phim (mặc dù lần này Lilly không tham gia).
-                Trong khi đó, những sự bổ sung mới cho dàn diễn viên của nhượng
-                quyền thương mại bao gồm Yahya Abdul-Mateen II trong vai
-                Morpheus, Jessica Henwick, Neil Patrick Harris và Priyanka
-                Chopra.
-              </p>
+              <p class="c-paragraphy c-line-height-2" id="mod-review"></p>
             </div>
           </div>
         </div>
@@ -212,26 +159,7 @@
       <section class="c-section">
         <h3 class="c-section__title c-title">Nội dung phim</h3>
         <div class="c-section__content">
-          <p class="c-paragraphy c-line-height-2">
-            ”Trong một thế giới của hai thực tại-cuộc sống hàng ngày và những gì
-            ẩn chứa đằng sau nó-Thomas Anderson sẽ phải lựa chọn đi theo con thỏ
-            trắng một lần nữa. Sự lựa chọn, trong khi chỉ là ảo ảnh, vẫn là cách
-            duy nhất để vào hoặc ra khỏi Ma trận, mạnh hơn, an toàn hơn, và nguy
-            hiểm hơn bao giờ hết.” <br /><br />
-            The Matrix Resurrections sẽ chứng kiến ​​Keanu Reeves và Carrie-Anne
-            Moss trở lại trong vai Neo và Trinity-Neo đang sống một cuộc sống
-            dường như bình thường ở San Francisco với vai Thomas Anderson. Anh
-            ta đang được bác sĩ trị liệu kê cho những viên thuốc màu xanh lam và
-            dường như không nhận ra Trinity khi họ va vào nhau. Jada
-            Pinkett-Smith cũng sẽ trở lại với vai Niobe, trong khi Lambert
-            Wilson sẽ đóng lại vai The Merovingian và Daniel Bernhardt trở lại
-            với vai Đặc vụ Johnson. Lana Wachowski, người đồng đạo diễn bộ ba Ma
-            trận gốc với chị gái Lilly, trở lại với tư cách đạo diễn, cũng như
-            đồng sáng tác và đồng sản xuất bộ phim (mặc dù lần này Lilly không
-            tham gia). Trong khi đó, những sự bổ sung mới cho dàn diễn viên của
-            nhượng quyền thương mại bao gồm Yahya Abdul-Mateen II trong vai
-            Morpheus, Jessica Henwick, Neil Patrick Harris và Priyanka Chopra.
-          </p>
+          <p class="c-paragraphy c-line-height-2" id="movie-content"></p>
         </div>
       </section>
 
@@ -254,64 +182,7 @@
           </div>
         </div>
         <div class="c-section__content">
-          <div id="actors">
-            <div class="p-actors__item">
-              <div class="img-ratio2x3 p-actors__item__img">
-                <img src="./assets/images/actors/actor-1.jpg" alt="" />
-              </div>
-              <p class="c-label">Keanu Reeves</p>
-              <p class="c-paragraphy">Neo</p>
-            </div>
-            <div class="p-actors__item">
-              <div class="img-ratio2x3 p-actors__item__img">
-                <img src="./assets/images/actors/actor-1.jpg" alt="" />
-              </div>
-              <p class="c-label">Keanu Reeves</p>
-              <p class="c-paragraphy">Neo</p>
-            </div>
-            <div class="p-actors__item">
-              <div class="img-ratio2x3 p-actors__item__img">
-                <img src="./assets/images/actors/actor-1.jpg" alt="" />
-              </div>
-              <p class="c-label">Keanu Reeves</p>
-              <p class="c-paragraphy">Neo</p>
-            </div>
-            <div class="p-actors__item">
-              <div class="img-ratio2x3 p-actors__item__img">
-                <img src="./assets/images/actors/actor-1.jpg" alt="" />
-              </div>
-              <p class="c-label">Keanu Reeves</p>
-              <p class="c-paragraphy">Neo</p>
-            </div>
-            <div class="p-actors__item">
-              <div class="img-ratio2x3 p-actors__item__img">
-                <img src="./assets/images/actors/actor-1.jpg" alt="" />
-              </div>
-              <p class="c-label">Keanu Reeves</p>
-              <p class="c-paragraphy">Neo</p>
-            </div>
-            <div class="p-actors__item">
-              <div class="img-ratio2x3 p-actors__item__img">
-                <img src="./assets/images/actors/actor-1.jpg" alt="" />
-              </div>
-              <p class="c-label">Keanu Reeves</p>
-              <p class="c-paragraphy">Neo</p>
-            </div>
-            <div class="p-actors__item">
-              <div class="img-ratio2x3 p-actors__item__img">
-                <img src="./assets/images/actors/actor-1.jpg" alt="" />
-              </div>
-              <p class="c-label">Keanu Reeves</p>
-              <p class="c-paragraphy">Neo</p>
-            </div>
-            <div class="p-actors__item">
-              <div class="img-ratio2x3 p-actors__item__img">
-                <img src="./assets/images/actors/actor-1.jpg" alt="" />
-              </div>
-              <p class="c-label">Keanu Reeves</p>
-              <p class="c-paragraphy">Neo</p>
-            </div>
-          </div>
+          <div id="actors"></div>
         </div>
       </section>
 
@@ -334,112 +205,7 @@
           </div>
         </div>
         <div class="c-section__content">
-          <div id="videos">
-            <div class="p-videos__item">
-              <img src="./assets/images/videos/video-1.jpg" alt="" />
-              <div class="on-hover">
-                <button
-                  class="c-btn-icon c-btn-icon--play p-videos__item__icon"
-                >
-                  <?xml version="1.0" ?><!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
-                  <svg
-                    height="40px"
-                    width="40px"
-                    id="Layer_1"
-                    style="enable-background: new 0 0 512 512"
-                    version="1.1"
-                    viewBox="0 0 512 512"
-                    xml:space="preserve"
-                    xmlns="http://www.w3.org/2000/svg"
-                    xmlns:xlink="http://www.w3.org/1999/xlink"
-                  >
-                    <path
-                      fill="#ffffff"
-                      d="M405.2,232.9L126.8,67.2c-3.4-2-6.9-3.2-10.9-3.2c-10.9,0-19.8,9-19.8,20H96v344h0.1c0,11,8.9,20,19.8,20  c4.1,0,7.5-1.4,11.2-3.4l278.1-165.5c6.6-5.5,10.8-13.8,10.8-23.1C416,246.7,411.8,238.5,405.2,232.9z"
-                    />
-                  </svg>
-                </button>
-              </div>
-            </div>
-            <div class="p-videos__item">
-              <img src="./assets/images/videos/video-1.jpg" alt="" />
-              <div class="on-hover">
-                <button
-                  class="c-btn-icon c-btn-icon--play p-videos__item__icon"
-                >
-                  <?xml version="1.0" ?><!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
-                  <svg
-                    height="40px"
-                    width="40px"
-                    id="Layer_1"
-                    style="enable-background: new 0 0 512 512"
-                    version="1.1"
-                    viewBox="0 0 512 512"
-                    xml:space="preserve"
-                    xmlns="http://www.w3.org/2000/svg"
-                    xmlns:xlink="http://www.w3.org/1999/xlink"
-                  >
-                    <path
-                      fill="#ffffff"
-                      d="M405.2,232.9L126.8,67.2c-3.4-2-6.9-3.2-10.9-3.2c-10.9,0-19.8,9-19.8,20H96v344h0.1c0,11,8.9,20,19.8,20  c4.1,0,7.5-1.4,11.2-3.4l278.1-165.5c6.6-5.5,10.8-13.8,10.8-23.1C416,246.7,411.8,238.5,405.2,232.9z"
-                    />
-                  </svg>
-                </button>
-              </div>
-            </div>
-            <div class="p-videos__item">
-              <img src="./assets/images/videos/video-1.jpg" alt="" />
-              <div class="on-hover">
-                <button
-                  class="c-btn-icon c-btn-icon--play p-videos__item__icon"
-                >
-                  <?xml version="1.0" ?><!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
-                  <svg
-                    height="40px"
-                    width="40px"
-                    id="Layer_1"
-                    style="enable-background: new 0 0 512 512"
-                    version="1.1"
-                    viewBox="0 0 512 512"
-                    xml:space="preserve"
-                    xmlns="http://www.w3.org/2000/svg"
-                    xmlns:xlink="http://www.w3.org/1999/xlink"
-                  >
-                    <path
-                      fill="#ffffff"
-                      d="M405.2,232.9L126.8,67.2c-3.4-2-6.9-3.2-10.9-3.2c-10.9,0-19.8,9-19.8,20H96v344h0.1c0,11,8.9,20,19.8,20  c4.1,0,7.5-1.4,11.2-3.4l278.1-165.5c6.6-5.5,10.8-13.8,10.8-23.1C416,246.7,411.8,238.5,405.2,232.9z"
-                    />
-                  </svg>
-                </button>
-              </div>
-            </div>
-            <div class="p-videos__item">
-              <img src="./assets/images/videos/video-1.jpg" alt="" />
-              <div class="on-hover">
-                <button
-                  class="c-btn-icon c-btn-icon--play p-videos__item__icon"
-                >
-                  <?xml version="1.0" ?><!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
-                  <svg
-                    height="40px"
-                    width="40px"
-                    id="Layer_1"
-                    style="enable-background: new 0 0 512 512"
-                    version="1.1"
-                    viewBox="0 0 512 512"
-                    xml:space="preserve"
-                    xmlns="http://www.w3.org/2000/svg"
-                    xmlns:xlink="http://www.w3.org/1999/xlink"
-                  >
-                    <path
-                      fill="#ffffff"
-                      d="M405.2,232.9L126.8,67.2c-3.4-2-6.9-3.2-10.9-3.2c-10.9,0-19.8,9-19.8,20H96v344h0.1c0,11,8.9,20,19.8,20  c4.1,0,7.5-1.4,11.2-3.4l278.1-165.5c6.6-5.5,10.8-13.8,10.8-23.1C416,246.7,411.8,238.5,405.2,232.9z"
-                    />
-                  </svg>
-                </button>
-              </div>
-            </div>
-          </div>
+          <div id="videos"></div>
         </div>
       </section>
 
@@ -461,12 +227,12 @@
               <li class="c-paginate__prev c-paginate__item">
                 <i class="bx bx-chevron-left"></i>
               </li>
-              <li class="c-paginate__item selected">1</li>
-              <li class="c-paginate__item">2</li>
-              <li class="c-paginate__item">3</li>
+              <li class="c-paginate__item selected c-paginate__num">1</li>
+              <li class="c-paginate__item c-paginate__num">2</li>
+              <li class="c-paginate__item c-paginate__num">3</li>
               <li class="c-paginate__item u-pe-none">...</li>
-              <li class="c-paginate__item">7</li>
-              <li class="c-paginate__item">8</li>
+              <li class="c-paginate__item c-paginate__num">7</li>
+              <li class="c-paginate__item c-paginate__num">8</li>
               <li class="c-paginate__next c-paginate__item">
                 <i class="bx bx-chevron-right"></i>
               </li>
@@ -476,7 +242,7 @@
       </section>
     </main>
     <footer></footer>
-
+    <script src="./scripts/data.js"></script>
     <script
       type="text/javascript"
       src="//code.jquery.com/jquery-1.11.0.min.js"
@@ -491,52 +257,47 @@
       src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
     ></script>
     <script>
-      var reviews = [
-        {
-          id: 1,
-          user_id: 1,
-          name: 'Nguyễn Tuấn Gia',
-          star: 4,
-          totalLike: 10,
-          totalDislike: 20,
-          date: 'Ngày 21 tháng 12 năm 2021, lúc 23:23',
-          content:
-            'Phim khá hay tui lúc đầu hơi khó hiểu nhưng cố gắng gắn kết câu chuyện thì không hiểu thật.',
-        },
-        {
-          id: 2,
-          user_id: 1,
-          name: 'Nguyễn Tú',
-          star: 4,
-          totalLike: 10,
-          totalDislike: 20,
-          date: 'Ngày 21 tháng 12 năm 2021, lúc 23:23',
-          content:
-            'Phim khá hay tui lúc đầu hơi khó hiểu nhưng cố gắng gắn kết câu chuyện thì không hiểu thật.',
-        },
-        {
-          id: 3,
-          user_id: 1,
-          name: 'Nguyễn Thị Huy',
-          star: 4,
-          totalLike: 10,
-          totalDislike: 20,
-          date: 'Ngày 21 tháng 12 năm 2021, lúc 23:23',
-          content:
-            'Phim khá hay tui lúc đầu hơi khó hiểu nhưng cố gắng gắn kết câu chuyện thì không hiểu thật.',
-        },
-        {
-          id: 4,
-          user_id: 1,
-          name: 'Phạm Thị Mỹ Vương',
-          star: 4,
-          totalLike: 10,
-          totalDislike: 20,
-          date: 'Ngày 21 tháng 12 năm 2021, lúc 23:23',
-          content:
-            'Trong một thế giới của hai thực tại-cuộc sống hàng ngày và những gì ẩn chứa đằng sau nó-Thomas Anderson sẽ phải lựa chọn đi theo con thỏ trắng một lần nữa. Sự lựa chọn, trong khi chỉ là ảo ảnh, vẫn là cách duy nhất để vào hoặc ra khỏi Ma trận, mạnh hơn, an toàn hơn, và nguy hiểm hơn bao giờ hết. The Matrix Resurrections sẽ chứng kiến ​​Keanu Reeves và Carrie-Anne Moss trở lại trong vai Neo  The Matrix Resurrections sẽ chứng kiến ​​Keanu Reeves và Carrie-Anne Moss trở lại trong vai Neo',
-        },
-      ];
+      var renderDetails = function (details) {
+        $('#movie-poster').attr('src', details.poster);
+        $('#movie-title').text(details.title);
+        $('#movie-runtime').text(details.runtime + ' phút');
+        $('#movie-genres').text(details.genres.join(', '));
+        $('#movie-status').text(details.title);
+        $('#movie-releasedAt').text(details.releasedAt);
+        $('#movie-languages').text(details.languages.join(', '));
+        $('#movie-total-score').text(details.totalScore);
+        $('#mod-acting').attr(
+          'src',
+          `/assets/images/scores/${details.mod.acting}.png`
+        );
+        $('#mod-content').attr(
+          'src',
+          `/assets/images/scores/${details.mod.content}.png`
+        );
+        $('#mod-frame').attr(
+          'src',
+          `/assets/images/scores/${details.mod.frame}.png`
+        );
+        $('#mod-sound').attr(
+          'src',
+          `/assets/images/scores/${details.mod.sound}.png`
+        );
+        $('#mod-effects').attr(
+          'src',
+          `/assets/images/scores/${details.mod.effects}.png`
+        );
+        $('#mod-total').attr(
+          'src',
+          `/assets/images/scores/${details.mod.total}.png`
+        );
+        $('#movie-total-review').html(
+          details.totalReview + `<br />lượt đánh giá`
+        );
+        $('#mod-review').html(details.mod.review);
+        $('#movie-content').html(details.content);
+        renderActors(details.actors);
+        renderVideos(details.videos);
+      };
       var createReviewItem = function (comment) {
         return `<div class="p-reviews__item u-flex u-shadow-4">
               <div class="p-reviews__item__user">
@@ -603,15 +364,22 @@
           $(createReviewItem(comment)).appendTo('#reviews');
         });
       };
-      function pauseAllVideos() {
-        const videos = document.querySelectorAll('iframe');
-        videos.forEach((i) => {
-          const source = i.src;
-          i.src = '';
-          i.src = source;
+      var renderActorItem = function (actor) {
+        return `<div class="p-actors__item">
+              <div class="img-ratio2x3 p-actors__item__img">
+                <img src="${actor.image}" alt="" />
+              </div>
+              <p class="c-label p-actors__item__name">${actor.name}</p>
+              <p class="c-paragraphy--small p-actors__item__position">${actor.position}</p>
+            </div>`;
+      };
+      var renderActors = function (actors) {
+        $actors = $('#actors');
+        $actors.empty();
+        actors.forEach((actor) => {
+          $(renderActorItem(actor)).appendTo($actors);
         });
-      }
-      $(document).ready(function () {
+
         $('#actors').slick({
           infinite: true,
           slidesToShow: 6,
@@ -620,8 +388,41 @@
           prevArrow: $('.actors__previous'),
           nextArrow: $('.actors__next'),
         });
-      });
-      $(document).ready(function () {
+      };
+      var renderVideoItem = function (video) {
+        return ` <div class="p-videos__item">
+              <img src="${video.poster}" alt="" />
+              <div class="on-hover">
+                <button
+                  class="c-btn-icon c-btn-icon--play p-videos__item__icon"
+                >
+                  <?xml version="1.0" ?><!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
+                  <svg
+                    height="40px"
+                    width="40px"
+                    id="Layer_1"
+                    style="enable-background: new 0 0 512 512"
+                    version="1.1"
+                    viewBox="0 0 512 512"
+                    xml:space="preserve"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                  >
+                    <path
+                      fill="#ffffff"
+                      d="M405.2,232.9L126.8,67.2c-3.4-2-6.9-3.2-10.9-3.2c-10.9,0-19.8,9-19.8,20H96v344h0.1c0,11,8.9,20,19.8,20  c4.1,0,7.5-1.4,11.2-3.4l278.1-165.5c6.6-5.5,10.8-13.8,10.8-23.1C416,246.7,411.8,238.5,405.2,232.9z"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>`;
+      };
+      var renderVideos = function (videos) {
+        $videos = $('#videos');
+        $videos.empty();
+        videos.forEach((video) => {
+          $(renderVideoItem(video)).appendTo($videos);
+        });
         $('#videos').slick({
           infinite: true,
           slidesToShow: 3,
@@ -629,12 +430,20 @@
           prevArrow: $('.videos__previous'),
           nextArrow: $('.videos__next'),
         });
-      });
-      $('.p-videos__item').click(function (e) {
+      };
+
+      function pauseAllVideos() {
+        const videos = document.querySelectorAll('iframe');
+        videos.forEach((i) => {
+          const source = i.src;
+          i.src = '';
+          i.src = source;
+        });
+      }
+      $(document).on('click', '.p-videos__item', function (e) {
         e.preventDefault();
         $('.p-trailer-modal').addClass('is-open');
       });
-
       $('.c-modal__close').click(function (e) {
         e.preventDefault();
         pauseAllVideos();
@@ -649,7 +458,14 @@
         pauseAllVideos();
         $('.c-modal').removeClass('is-open');
       });
+
+      $(document).on('click', '.c-paginate__num', function (e) {
+        e.preventDefault();
+        $('.c-paginate__item').removeClass('selected');
+        $(this).addClass('selected');
+      });
       renderReviews(reviews);
+      renderDetails(movieDetails);
     </script>
   </body>
 </html>
